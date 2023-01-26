@@ -1,0 +1,47 @@
+#a{
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    height: 100vh;
+    width: 100vw;
+    overflow :hidden;
+
+}
+#hms{
+    font-size: 100px;
+    font-family: consolas;
+    color:forestgreen;
+    margin-top: 1px;
+    text-align: center;
+    height:130px;
+    
+}
+.b{
+    border: 3px solid white;
+    border-radius: 20px;
+    background-color:#333333;
+    color:antiquewhite;
+    font-weight: 700 ;
+    text-decoration: wavy;
+    font-family: consolas;
+    cursor:crosshair;
+    line-height: 2;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    width: 100px;
+}
+
+#time{
+    text-align: center;
+    background-color:#222222;
+    border: 1px solid black;
+    border-radius: 50px;
+    width :520px;
+    height: 200px;
+}
