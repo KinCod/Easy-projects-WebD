@@ -1,0 +1,21 @@
+#m{
+    font-size: 50px;
+    animation: abc,color;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color :aquamarine
+}
+
+@keyframes abc {
+    50%{transform: rotatex(360deg);}
+}
+
+@keyframes color {
+    0%{color: aqua;}
+    20%{color: bisque;}
+    40%{color: blue;}
+    60%{color :aliceblue}
+    80%{color: yellow;}
+    100%{color: cadetblue;}
+}
